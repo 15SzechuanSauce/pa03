@@ -6,7 +6,7 @@ public class xiaoyangCircle extends CircleShape{
 
   public xiaoyangCircle(){
     super();
-    this.color = new Color(0,0,0);
+    this.color = new Color(200,0,0);
   }
 
   public static void main(String[] args) {

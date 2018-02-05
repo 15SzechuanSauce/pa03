@@ -1,6 +1,13 @@
 package pa03;
 
+import java.awt.Color;
+
 public class xiaoyangCircle extends CircleShape{
+
+  public xiaoyangCircle(){
+    super();
+    this.color = new Color(0,0,0);
+  }
 
   public static void main(String[] args) {
     xiaoyangCircle x = new xiaoyangCircle();

@@ -41,6 +41,8 @@ public class DrawingModel {
 			c= new xiaoyangCircle();
 			this.add(c);
 
+			c = new VenusCircle();
+			this.add(c);
 		}
 	}
 

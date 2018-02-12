@@ -9,7 +9,7 @@ public class VenusCircle extends CircleShape{
 
   public VenusCircle(){
     super();
-    this.color = new Color(255,255,255); 
+    this.color = new Color(255,255,255);
   }
 
   public void draw( Graphics g ){

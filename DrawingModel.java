@@ -42,7 +42,7 @@ public class DrawingModel {
 			c = new SandyCircle();
 			this.add(c);
 
-			c = new CircleShape();
+			c = new JessieCircle();
 			this.add(c);
 		}
 	}

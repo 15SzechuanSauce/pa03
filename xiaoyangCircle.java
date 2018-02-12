@@ -5,13 +5,11 @@ import java.awt.Graphics;
 import java.awt.*;
 
 public class xiaoyangCircle extends CircleShape{
-  public Color borderColor;
   public Color textColor;
 
   public xiaoyangCircle(){
     super();
     this.color = new Color(200,0,0); //color:red
-    this.borderColor=new Color(200,0,0);
     this.textColor=new Color(0,0,0);
   }
   public void draw( Graphics g ) {
